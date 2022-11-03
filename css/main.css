@@ -109,7 +109,18 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
     color: #fff;
+}
+
+main {
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
 }
 
 .wrapper {
@@ -117,6 +128,9 @@ header {
   display: flex;
   font-weight: 400;
   justify-content: space-between;
+  flex-flow: row wrap;
+  border-top: .5px solid rgb(139, 139, 139);
+  border-bottom: .5px solid rgb(139, 139, 139);
 }
 
 .div-1, .div-2, .div-3 {
@@ -130,6 +144,7 @@ header {
   height: 300px;
   width: 30%;
 }
+
 span {
     font-weight: 700;
 }
@@ -147,9 +162,25 @@ span {
     padding-left: 20px;
 }
 
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row;
+    flex-basis: auto;
+}
 
+a {
+    width: 10%;
+    flex: 0 300 auto;
+}
 
+img {
+    height: 15%;
+    width: 15%;
+}
 
+ 
 
 /* ==========================================================================
    Helper classes
