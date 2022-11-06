@@ -165,19 +165,19 @@ span {
 footer {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     flex-flow: row;
     flex-basis: auto;
 }
 
 a {
-    width: 10%;
-    flex: 0 300 auto;
+    width: 100%;
+    flex-basis: 5%;
+    padding-top: 5px;
 }
 
 img {
-    height: 15%;
-    width: 15%;
+    width: 30px;
 }
 
  
